@@ -116,10 +116,11 @@ a:hover {
   justify-content: start;
 }
 .cta > * > p{
-  font-size: 40px;
   margin-top: -15px;
   font-weight: 600;
+  font-size: 20px !important;
 }
+
 .cta > p{
   font-size: 15px;
   line-height: 0.1;
@@ -132,14 +133,16 @@ a:hover {
   width: 40px;
   font-size: 30px;
 }
-
+p{
+  font-size: 16px !important;
+}
 
 .footer ul li a{
   color: rgb(233, 217, 189);
   font-family: "Inter", sans-serif;
 }
 .footer > p {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 
@@ -156,8 +159,11 @@ a:hover {
     font-size: 3rem;
     line-height: 4rem;
   }
-  .section2 .details p{
-    font-size: 20px;
+  .section2 .details p , p{
+    font-size: 20px !important;
+  }
+  .cta > * > p{
+  font-size: 40px !important;
   }
 }
 @media screen and (min-width: 768px) {
